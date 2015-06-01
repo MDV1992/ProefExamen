@@ -13,7 +13,7 @@ namespace Ado.netProefexamen.DAL
        static string connString = "Data Source=localhost;Initial Catalog=ProefExamenPr3;Integrated Security=True";
 
 
-       public static void Opslaan()
+       public static void Opslaan(Visitor visitor)
        {
            var conn = new SqlConnection(connString);
            var cmd = conn.CreateCommand();
