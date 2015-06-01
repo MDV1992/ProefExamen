@@ -4,6 +4,7 @@ using System.Dynamic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Ado.netProefexamen.DAL;
 
 namespace Ado.netProefexamen.BO
 {
@@ -16,8 +17,11 @@ namespace Ado.netProefexamen.BO
         public string Email { get; set; }
         public bool Notebook { get; set; }
         public int LunchID { get; set; }
-        public DateTime SubscribeDate { get; set; } 
+        public DateTime SubscribeDate { get; set; }
 
-
+        public void Save()
+        {
+            DaVisitor.Opslaan();
+        }
     }
 }
