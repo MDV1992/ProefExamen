@@ -71,6 +71,8 @@
     <Compile Include="BO\Event.cs" />
     <Compile Include="BO\Lunch.cs" />
     <Compile Include="BO\Visitor.cs" />
+    <Compile Include="DAL\DaEvent.cs" />
+    <Compile Include="DAL\DaLunch.cs" />
     <Compile Include="DAL\DaVisitor.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
